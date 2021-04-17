@@ -107,7 +107,7 @@ img {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-    url("/images/mountainside.png");
+    url(".././images/mountainside.png");
 
   height: 100vh;
   background-position: center;
