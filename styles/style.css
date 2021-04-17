@@ -106,20 +106,14 @@ img {
 }
 
 header {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.25)),
-      to(rgba(0, 0, 0, 0.25))
-    ),
-    url("/images/mountainside.jpeg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("/images/mountainside.jpeg");
+
   height: 100vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 header .navigation {
