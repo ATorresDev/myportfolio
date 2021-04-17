@@ -1,0 +1,48 @@
+.project-section {
+  background-color: #e6e6e6;
+  h2 {
+    color: $textDark;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  p {
+    color: $textDark;
+  }
+  img {
+    height: 200px;
+    width: 60%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .code-buttons a {
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid $accentColor;
+    background-color: #fff;
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 0.8125rem;
+    color: $accentColor;
+  }
+  .code-buttons a:hover {
+    background-color: $accentColor;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  // .myprojects {
+  //   margin: 80px 0;
+  // }
+  .icon {
+    width: 70%;
+    text-align: right;
+    margin: 0 auto;
+  }
+  a .material-icons {
+    color: $accentColor;
+    font-size: 2.1rem;
+    font-weight: 700;
+  }
+}

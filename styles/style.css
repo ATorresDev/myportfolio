@@ -1,0 +1,490 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Italianno", cursive;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.padding-tb {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.jc-c {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.jc-sb {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.jc-se {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.jc-sa {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.ai-c {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.ai-fe {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+header {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.25)),
+      to(rgba(0, 0, 0, 0.25))
+    ),
+    url(/images/mountainside.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url(/images/mountainside.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .navigation {
+  width: 100%;
+  background-color: #0007;
+}
+
+header .container {
+  height: 4.6875rem;
+}
+
+header .logo {
+  font-family: "Italianno", cursive;
+  font-size: 60px;
+  color: #f05322;
+  font-weight: 400;
+}
+
+header li {
+  list-style-type: none;
+}
+
+header li a {
+  color: #ffffff;
+  padding: 10px 16px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+header .hero-text {
+  height: 90vh;
+}
+
+header .hero-text h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  width: 35%;
+  text-align: left;
+  line-height: 1.2;
+}
+
+header .hero-text p {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+header .hero-text a {
+  color: #f05322;
+}
+
+header .hero-text p .material-icons {
+  font-size: 2.1rem;
+  margin-left: 1.25rem;
+}
+
+.about-section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  color: #132c33;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  width: 70%;
+  font-weight: 600;
+}
+
+.about-section img {
+  width: 100%;
+  height: 225px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-top: 3rem;
+}
+
+.about-section .about-text {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.about-section h3 {
+  color: #f05322;
+  margin-top: 2.8rem;
+}
+
+.about-section ul {
+  margin-left: 0.9375rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+}
+
+.about-section p,
+.about-section ul {
+  margin-top: 1rem;
+}
+
+.about-section li {
+  font-weight: 700;
+}
+
+.about-section .material-icons {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #f05322;
+}
+
+.project-section {
+  background-color: #e6e6e6;
+}
+
+.project-section h2 {
+  color: #132c33;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-section p {
+  color: #132c33;
+}
+
+.project-section img {
+  height: 200px;
+  width: 60%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project-section .project-text {
+  width: 40%;
+  padding-left: 4rem;
+}
+
+.project-section .code-buttons a {
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid #f05322;
+  background-color: #fff;
+  padding: 10px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 0.8125rem;
+  color: #f05322;
+}
+
+.project-section .code-buttons a:hover {
+  background-color: #f05322;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.project-section .myprojects {
+  margin: 80px 0;
+}
+
+.project-section .icon {
+  width: 70%;
+  text-align: right;
+  margin: 0 auto;
+}
+
+.project-section a .material-icons {
+  color: #f05322;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+
+.contact-me {
+  background-color: #132c33;
+}
+
+.contact-me .contact-form {
+  background-color: #040a068a;
+  border: 3px solid #f05322;
+}
+
+.contact-me .container {
+  width: 60%;
+}
+
+.contact-me h1 {
+  text-align: center;
+  font-family: "Italianno", cursive;
+  color: #ffffff;
+  font-size: 3.75rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.contact-me form {
+  text-align: center;
+}
+
+.contact-me form input {
+  width: 80%;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #f05322;
+  margin-top: 4.6875rem;
+  padding: 5px 0;
+  font-size: 1rem;
+  color: #f05322;
+}
+
+.contact-me form input::-webkit-input-placeholder {
+  color: #f05322;
+}
+
+.contact-me form input:-ms-input-placeholder {
+  color: #f05322;
+}
+
+.contact-me form input::-ms-input-placeholder {
+  color: #f05322;
+}
+
+.contact-me form input::placeholder {
+  color: #f05322;
+}
+
+.contact-me form input:focus {
+  outline: none;
+}
+
+.contact-me form button {
+  border: 1px solid #fff;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 16px;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  margin-top: 4.6875rem;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.contact-me form button:hover {
+  color: #ffffff;
+  background-color: #f05322;
+  border: 1px solid #f05322;
+}
+
+footer {
+  text-align: center;
+  background-color: #132c33;
+  padding: 1.5rem 0;
+}
+
+footer p {
+  font-size: 1.25rem;
+  color: #f05322;
+}
+/*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 1050px) {
+  header .hero-text h2 {
+    font-size: 22px;
+  }
+  .myprojects {
+    flex-direction: column;
+    width: 100%;
+  }
+  .myprojects img {
+    width: 100%;
+  }
+
+  .project-section .project-text {
+    width: 100%;
+    padding: 20px 0;
+    flex-direction: row;
+
+    align-items: center;
+
+    font-size: 10px;
+  }
+  .code-buttons {
+    width: 50%;
+    text-align: right;
+  }
+  .project-text p {
+    width: 50%;
+  }
+  .code-buttons a {
+    font-size: 10px;
+
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header .hero-text h2 {
+    font-size: 18px;
+    width: 100%;
+  }
+  header .hero-text a {
+    font-size: 14px;
+  }
+  header .container {
+    flex-direction: column;
+  }
+  .navigation {
+    height: 125px;
+  }
+  header li a {
+    font-size: 12px;
+    padding: 6px 14px;
+    margin: 0 4px;
+  }
+  .about-section h2 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .project-section h2 {
+    font-size: 20px;
+  }
+  .about-section .about-text h3 {
+    font-size: 18px;
+  }
+  .about-section .about-text p {
+    font-size: 16px;
+  }
+  .project-section .project-text {
+    flex-direction: column;
+    padding: 50px;
+  }
+  .project-text p {
+    width: 100%;
+  }
+  .code-buttons {
+    width: 100%;
+  }
+  .code-buttons a {
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .flex {
+    align-items: center;
+  }
+  header li a {
+    font-size: 8px;
+  }
+  header .hero-text a {
+    font-size: 12px;
+  }
+  .navigation {
+    height: 125px;
+  }
+  header ul .nav-links .flex {
+    margin: 10px 0;
+  }
+  .contact-me .container {
+    width: 100%;
+  }
+} ;

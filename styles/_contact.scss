@@ -1,0 +1,65 @@
+.contact-me {
+  background-color: $textDark;
+
+  .contact-form {
+    background-color: #040a068a;
+    border: 3px solid $accentColor;
+  }
+  .container {
+    width: 60%;
+  }
+  h1 {
+    text-align: center;
+    font-family: "Italianno", cursive;
+    color: $textLight;
+    font-size: 3.75rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  form {
+    text-align: center;
+
+    input {
+      width: 80%;
+      border: none;
+      background: none;
+      border-bottom: 1px solid $accentColor;
+      margin-top: 4.6875rem;
+      padding: 5px 0;
+      font-size: 1rem;
+      color: $accentColor;
+    }
+    input::placeholder {
+      color: $accentColor;
+    }
+    input:focus {
+      outline: none;
+    }
+    button {
+      border: 1px solid #fff;
+      color: $textLight;
+      background-color: rgba(0, 0, 0, 0);
+      padding: 8px 16px;
+      border-radius: 0.625rem;
+      cursor: pointer;
+      margin-top: 4.6875rem;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+    }
+    button:hover {
+      color: $textLight;
+      background-color: $accentColor;
+      border: 1px solid $accentColor;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: $textDark;
+  padding: 1.5rem 0;
+  p {
+    font-size: 1.25rem;
+    color: $accentColor;
+  }
+}

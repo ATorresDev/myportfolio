@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navigation -->
+      <nav id="mynavigation" class="navigation">
+        <div class="container flex jc-sb ai-c">
+          <h1>
+            <a href="https://github.com/ATorresDev" target="_blank" class="logo"
+              >A.T</a
+            >
+          </h1>
+          <ul class="nav-links flex">
+            <li class="link"><a href="#about">About Me</a></li>
+            <li class="link"><a href="#projects">Projects</a></li>
+            <li class="link"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Hero-Text -->
+      <div class="hero-text container flex jc-se col">
+        <h2>
+          Hi, my name is Anthony. I am a professional developer with a passion
+          for creating beautiful websites.
+        </h2>
+        <p>
+          <a href="#projects" class="flex ai-c">
+            Scroll to projects<span class="material-icons"> east </span>
+          </a>
+        </p>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="about-section padding-tb">
+      <h2>
+        Setting a high standard for Front-end development and UI /UX design. If
+        i’m not coding you can catch me at the beach...
+      </h2>
+      <img src="/images/ocean view.jpeg" alt="ocean" />
+      <div class="about-text">
+        <h3>About:</h3>
+        <p>
+          I am a self-taught developer focused on solving difficult problems
+          utilizing technology. Throughout my career in different industries I
+          have set a goal to seeking solutions based on the real world. My niche
+          in front-end development provides a strong foundation for exciting
+          interfaces and dynamic responsiveness.
+        </p>
+        <p>
+          I would love to hear from you. Whether a project collaboration, an
+          exciting job opportunity, or to simply talk about our favorite sports
+          or restaurants. Feel free to reach out to me.
+        </p>
+        <h3>Technologies:</h3>
+        <div class="flex jc-sb ai-fe">
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>SASS</li>
+            <li>Bootstrap</li>
+            <li>Figma</li>
+            <li>Affinity Photo</li>
+          </ul>
+          <a href="#mynavigation"
+            ><span class="material-icons"> north </span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section-->
+    <section id="projects" class="project-section padding-tb">
+      <div class="container">
+        <h2>Recent Projects:</h2>
+        <div class="myprojects flex">
+          <img src="/images/tasklistcapture.PNG" alt="tasklist" />
+          <div class="project-text flex col jc-sa">
+            <p>
+              Task List is an app I created for the user to add and delete daily
+              tasks on the go. Developed with Javascript, Sass, and HTML5.
+            </p>
+            <div class="code-buttons">
+              <a href="https://atorresdev.github.io/tasklist/" target="_blank"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/ATorresDev/tasklist.git"
+                target="_blank"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="myprojects flex row">
+          <img src="/images/blueberry.jpg" alt="blueberry-muffin" />
+          <div class="project-text flex col jc-sa">
+            <p>
+              Blueberry Muffin is a responsive website made for a local
+              restaurant. It allows the user to see a menu, and the website also
+              utilizes javascript for the mobile navigation. Developed with
+              HTML5, CSS3, and Javascript.
+            </p>
+            <div class="code-buttons">
+              <a
+                href="https://atorresdev.github.io/blueberry-muffin/"
+                target="_blank"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/ATorresDev/blueberry-muffin.git"
+                target="_blank"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="myprojects flex row">
+          <img src="/images/htmlemail.PNG" alt="furniture-plus" />
+          <div class="project-text flex col jc-sa">
+            <p>
+              Furniture-plus is an HTML e-mail I developed to showcase my UI/UX
+              design skills. A simple and clean layout developed with HTML and a
+              bit of CSS.
+            </p>
+            <div class="code-buttons">
+              <a
+                href="https://atorresdev.github.io/furniture-plus/"
+                target="_blank"
+                >Live Site</a
+              >
+              <a
+                href="https://github.com/ATorresDev/furniture-plus.git"
+                target="_blank"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="myprojects flex row">
+          <img src="/images/dicegamecapture.png" alt="dicegame" />
+          <div class="project-text flex col jc-sa">
+            <p>
+              Dice game is a fun two player game that when you reload the page,
+              it will display a winner. This app was a follow along from Angela
+              Yu's web developer bootcamp on www.Udemy.com
+            </p>
+            <div class="code-buttons">
+              <a
+                href="https://atorresdev.github.io/dice/index.html"
+                target="_blank"
+                >Live Site</a
+              >
+              <a href="https://github.com/ATorresDev/dice.git" target="_blank"
+                >Source Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="icon">
+          <a href="#mynavigation"
+            ><span class="material-icons"> north </span></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-me padding-tb">
+      <div class="contact-form container padding-tb">
+        <h1>Contact Me</h1>
+
+        <form
+          action="https://formsubmit.co/A.Torres89@outlook.com"
+          method="POST"
+        >
+          <input type="text" id="name" placeholder="Your Name" required /><br />
+          <input
+            type="text"
+            id="email"
+            placeholder="Your Email"
+            required
+          /><br />
+          <input
+            type="text"
+            id="message"
+            placeholder="Your Message"
+            required
+          /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy Anthony Torres</p>
+    </footer>
+  </body>
+</html>

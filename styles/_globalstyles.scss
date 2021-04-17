@@ -1,0 +1,71 @@
+$accentColor: #f05322;
+$textLight: #ffffff;
+$textDark: #132c33;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  scroll-behavior: smooth;
+}
+html {
+  font-family: "Italianno", cursive;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1rem;
+}
+img {
+  width: 100%;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.padding-tb {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+.flex {
+  display: flex;
+}
+.jc-c {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.jc-se {
+  justify-content: space-evenly;
+}
+.jc-sa {
+  justify-content: space-around;
+}
+.ai-c {
+  align-items: center;
+}
+.ai-fe {
+  align-items: flex-end;
+}
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
