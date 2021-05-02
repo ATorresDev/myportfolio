@@ -243,10 +243,10 @@ header .hero-text p .material-icons {
 }
 
 .project-section img {
-  height: 200px;
+  height: 300px;
   width: 60%;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -o-object-fit: contain;
+  object-fit: contain;
   border-radius: 10px;
 }
 
